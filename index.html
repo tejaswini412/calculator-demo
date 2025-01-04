@@ -28,29 +28,58 @@ body{
     margin-bottom: 40px;
 
 }
+.btn{
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 20px;
+    margin: 10px;
+}
+.button-body{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.btn-change{
+    background-color: red;
+    color: white;
+}
+.btn-colors{
+    background-color: rgba(0, 0, 0, 0.877);
+    color: white;
+}
 
 </style>
 <body>
     <div class="calculator-body">
     <input type="text" value="0" class="screen">
-     <div class="button">
+<div class="button-body">
 
  <button class="btn">7</button>
  <button class="btn">4</button>
  <button class="btn">1</button>
- <button class="btn">C</button>
+ <button class="btn btn-change">C</button>
+
  <button class="btn">8</button>
  <button class="btn">5</button>
  <button class="btn">2</button>
  <button class="btn">0</button>
+
+
  <button class="btn">9</button>
  <button class="btn">6</button>
  <button class="btn">3</button>
- <button class="btn">=</button>
- <button class="btn">+</button>
- <button class="btn">-</button>
- <button class="btn">%</button>
- <button class="btn">/</button>
+ <button class="btn btn-colors">=</button>
+
+ <button class="btn btn-colors">+</button>
+ <button class="btn btn-colors">-</button>
+ <button class="btn btn-colors">X</button>
+ <button class="btn btn-colors">/</button>
 </div>
 
 
